@@ -19,6 +19,7 @@
   },
   "name": "leaderboard",
   "description": "Leaderboard",
+  "private": true,
   "version": "1.0.0",
   "main": "webpack.config.js",
   "dependencies": {
