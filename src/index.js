@@ -1,14 +1,17 @@
+/* eslint-disable import/no-cycle */
+/* eslint-disable import/no-mutable-exports */
+
 import './index.css';
 import {
-    load,
-    add,
-    clear
-} from './modules/functions.js'
+  load,
+  add,
+  clear,
+} from './modules/functions.js';
 
 let scores = [];
 
 if (JSON.parse(localStorage.getItem('scores'))) {
-    scores = JSON.parse(localStorage.getItem('scores'));
+  scores = JSON.parse(localStorage.getItem('scores'));
 }
 
 const left = document.querySelector('.left');
@@ -20,24 +23,24 @@ const refresh = document.getElementById('refresh');
 load();
 
 score.addEventListener('keypress', (e) => {
-    if (e.key === "Enter") {
-        add();
-        e.preventDefault();
-    }
-})
-
-submit.addEventListener('click', (e) => {
+  if (e.key === 'Enter') {
     add();
     e.preventDefault();
+  }
+});
+
+submit.addEventListener('click', (e) => {
+  add();
+  e.preventDefault();
 });
 
 refresh.addEventListener('click', (e) => {
-    clear();
-    e.preventDefault();
+  clear();
+  e.preventDefault();
 });
 
 export {
-    scores,
-    score,
-    left
-}
+  scores,
+  score,
+  left,
+};
