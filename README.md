@@ -1,5 +1,7 @@
 # Leaderboard
-
+> Leaderboard provides two functions:
+> 1. displays the list of the users and their scores fetching from the API and
+> 2. adds the new user and the score to the API.
 ## Built With
 - HTML
 - CSS
@@ -20,7 +22,7 @@ To get a local copy up and running:
 
 2. Navigate to the location of the folder in your machine:
 
-**``you@your-Pc-name:~$ cd <Leaderboard>``**
+**``you@your-Pc-name:~$ cd Leaderboard``**
 
 3. Open the project with VScode:
 
