@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\r\\n  background-color: azure;\\r\\n  font-family: 'Patrick Hand', cursive;\\r\\n  font-size: 18px;\\r\\n}\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://leaderboard/./src/index.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\r\\n  background-color: azure;\\r\\n  font-family: 'Patrick Hand', cursive;\\r\\n  font-size: 18px;\\r\\n}\\r\\n\\r\\nbutton {\\r\\n  margin: 8px 0 0 15px;\\r\\n  padding: 3px 8px 3px 8px;\\r\\n  border: 4px solid black;\\r\\n  font-family: 'Patrick Hand', cursive;\\r\\n  font-weight: 600;\\r\\n  font-size: 15px;\\r\\n  cursor: pointer;\\r\\n}\\r\\n\\r\\ntable {\\r\\n  padding: 3px;\\r\\n  width: 350px;\\r\\n  border: 4px solid black;\\r\\n}\\r\\n\\r\\ninput {\\r\\n  margin: 8px 0 0 15px;\\r\\n  padding: 3px 8px 3px 8px;\\r\\n  border: 4px solid black;\\r\\n  font-family: 'Patrick Hand', cursive;\\r\\n  font-weight: 600;\\r\\n  font-size: 15px;\\r\\n}\\r\\n\\r\\n.container {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  align-items: center;\\r\\n}\\r\\n\\r\\n.layout {\\r\\n  display: flex;\\r\\n  justify-content: center;\\r\\n  align-items: flex-start;\\r\\n  padding-bottom: 25px;\\r\\n}\\r\\n\\r\\n.heading {\\r\\n  width: 350px;\\r\\n  display: flex;\\r\\n  justify-content: space-between;\\r\\n  align-items: center;\\r\\n}\\r\\n\\r\\n.left {\\r\\n  margin-right: 50px;\\r\\n}\\r\\n\\r\\n.right {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  align-items: end;\\r\\n}\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://leaderboard/./src/index.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -114,9 +114,19 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n\n\n\n//# sourceURL=webpack://leaderboard/./src/index.js?");
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"left\": () => (/* binding */ left),\n/* harmony export */   \"score\": () => (/* binding */ score),\n/* harmony export */   \"scores\": () => (/* binding */ scores)\n/* harmony export */ });\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _modules_functions_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/functions.js */ \"./src/modules/functions.js\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_modules_functions_js__WEBPACK_IMPORTED_MODULE_1__]);\n_modules_functions_js__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n/* eslint-disable import/no-cycle */\r\n/* eslint-disable import/no-mutable-exports */\r\n\r\n\r\n\r\n\r\nlet scores = [];\r\n\r\nconst apiCall = async () => {\r\n  const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/SSGbndo2H1p1mU5MNLum/scores';\r\n  const req = new Request(url);\r\n\r\n  const res = await fetch(req);\r\n  scores = await res.json();\r\n  return scores;\r\n  // console.log(scores);\r\n}\r\n\r\nawait apiCall();\r\n\r\nconsole.log(scores);\r\n\r\n\r\nconst left = document.querySelector('.left');\r\nconst score = document.getElementById('score');\r\n\r\nconst submit = document.getElementById('submit');\r\nconst refresh = document.getElementById('refresh');\r\n\r\n(0,_modules_functions_js__WEBPACK_IMPORTED_MODULE_1__.load)();\r\n\r\nscore.addEventListener('keypress', (e) => {\r\n  if (e.key === 'Enter') {\r\n    (0,_modules_functions_js__WEBPACK_IMPORTED_MODULE_1__.add)();\r\n    e.preventDefault();\r\n  }\r\n});\r\n\r\nsubmit.addEventListener('click', (e) => {\r\n  (0,_modules_functions_js__WEBPACK_IMPORTED_MODULE_1__.add)();\r\n  e.preventDefault();\r\n});\r\n\r\nrefresh.addEventListener('click', (e) => {\r\n  (0,_modules_functions_js__WEBPACK_IMPORTED_MODULE_1__.clear)();\r\n  e.preventDefault();\r\n});\r\n\r\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } }, 1);\n\n//# sourceURL=webpack://leaderboard/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/modules/functions.js":
+/*!**********************************!*\
+  !*** ./src/modules/functions.js ***!
+  \**********************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"add\": () => (/* binding */ add),\n/* harmony export */   \"clear\": () => (/* binding */ clear),\n/* harmony export */   \"load\": () => (/* binding */ load)\n/* harmony export */ });\n/* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../index.js */ \"./src/index.js\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_index_js__WEBPACK_IMPORTED_MODULE_0__]);\n_index_js__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n/* eslint-disable import/no-cycle */\r\n\r\n\r\n\r\nconst load = () => {\r\n  if (_index_js__WEBPACK_IMPORTED_MODULE_0__.scores !== null && _index_js__WEBPACK_IMPORTED_MODULE_0__.scores.length !== 0) {\r\n    const trs = [];\r\n    const table = document.createElement('table');\r\n    const tbody = document.createElement('tbody');\r\n    _index_js__WEBPACK_IMPORTED_MODULE_0__.left.appendChild(table);\r\n    table.appendChild(tbody);\r\n    _index_js__WEBPACK_IMPORTED_MODULE_0__.scores.forEach((score) => {\r\n      const tr = document.createElement('tr');\r\n      const td = document.createElement('td');\r\n      td.innerHTML = `${score.name}: ${score.score}`;\r\n      const tbody = document.querySelector('tbody');\r\n      tbody.appendChild(tr);\r\n      tr.appendChild(td);\r\n      trs.push(tr);\r\n    });\r\n    for (let i = 0; i < trs.length; i += 1) {\r\n      if (i % 2 !== 0) {\r\n        trs[i].style.cssText = 'background-color: gainsboro;';\r\n      }\r\n    }\r\n  } else {\r\n    const noScore = document.createElement('p');\r\n    noScore.innerHTML = 'There is no score yet.';\r\n    _index_js__WEBPACK_IMPORTED_MODULE_0__.left.appendChild(noScore);\r\n  }\r\n};\r\n\r\nconst add = () => {\r\n  const name = document.getElementById('name');\r\n  if (name.value === '' || _index_js__WEBPACK_IMPORTED_MODULE_0__.score.value === '') {\r\n    const right = document.querySelector('.right');\r\n    const error = document.createElement('p');\r\n    error.innerHTML = 'The forms should not be empty!';\r\n    error.style.cssText = 'color: red;';\r\n    right.appendChild(error);\r\n  } else {\r\n    const newScore = {\r\n      name: name.value,\r\n      score: _index_js__WEBPACK_IMPORTED_MODULE_0__.score.value,\r\n    };\r\n    _index_js__WEBPACK_IMPORTED_MODULE_0__.scores.push(newScore);\r\n    localStorage.setItem('scores', JSON.stringify(_index_js__WEBPACK_IMPORTED_MODULE_0__.scores));\r\n    window.location.reload();\r\n  }\r\n};\r\n\r\nconst clear = () => {\r\n  window.localStorage.clear();\r\n  window.location.reload();\r\n};\r\n\r\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });\n\n//# sourceURL=webpack://leaderboard/./src/modules/functions.js?");
 
 /***/ })
 
@@ -147,6 +157,77 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ind
 /******/ 	}
 /******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/async module */
+/******/ 	(() => {
+/******/ 		var webpackQueues = typeof Symbol === "function" ? Symbol("webpack queues") : "__webpack_queues__";
+/******/ 		var webpackExports = typeof Symbol === "function" ? Symbol("webpack exports") : "__webpack_exports__";
+/******/ 		var webpackError = typeof Symbol === "function" ? Symbol("webpack error") : "__webpack_error__";
+/******/ 		var resolveQueue = (queue) => {
+/******/ 			if(queue && !queue.d) {
+/******/ 				queue.d = 1;
+/******/ 				queue.forEach((fn) => (fn.r--));
+/******/ 				queue.forEach((fn) => (fn.r-- ? fn.r++ : fn()));
+/******/ 			}
+/******/ 		}
+/******/ 		var wrapDeps = (deps) => (deps.map((dep) => {
+/******/ 			if(dep !== null && typeof dep === "object") {
+/******/ 				if(dep[webpackQueues]) return dep;
+/******/ 				if(dep.then) {
+/******/ 					var queue = [];
+/******/ 					queue.d = 0;
+/******/ 					dep.then((r) => {
+/******/ 						obj[webpackExports] = r;
+/******/ 						resolveQueue(queue);
+/******/ 					}, (e) => {
+/******/ 						obj[webpackError] = e;
+/******/ 						resolveQueue(queue);
+/******/ 					});
+/******/ 					var obj = {};
+/******/ 					obj[webpackQueues] = (fn) => (fn(queue));
+/******/ 					return obj;
+/******/ 				}
+/******/ 			}
+/******/ 			var ret = {};
+/******/ 			ret[webpackQueues] = x => {};
+/******/ 			ret[webpackExports] = dep;
+/******/ 			return ret;
+/******/ 		}));
+/******/ 		__webpack_require__.a = (module, body, hasAwait) => {
+/******/ 			var queue;
+/******/ 			hasAwait && ((queue = []).d = 1);
+/******/ 			if(queue) queue.moduleId = module.id;
+/******/ 			var depQueues = new Set();
+/******/ 			var exports = module.exports;
+/******/ 			var currentDeps;
+/******/ 			var outerResolve;
+/******/ 			var reject;
+/******/ 			var promise = new Promise((resolve, rej) => {
+/******/ 				reject = rej;
+/******/ 				outerResolve = resolve;
+/******/ 			});
+/******/ 			promise[webpackExports] = exports;
+/******/ 			promise[webpackQueues] = (fn) => (queue && fn(queue), depQueues.forEach(fn), promise["catch"](x => {}));
+/******/ 			promise.moduleId = module.id;
+/******/ 			module.exports = promise;
+/******/ 			body((deps) => {
+/******/ 				currentDeps = wrapDeps(deps);
+/******/ 				var fn;
+/******/ 				var getResult = () => (currentDeps.map((d) => {
+/******/ 					if(d[webpackError]) throw d[webpackError];
+/******/ 					return d[webpackExports];
+/******/ 				}))
+/******/ 				var promise = new Promise((resolve) => {
+/******/ 					fn = () => (resolve(getResult));
+/******/ 					fn.r = 0;
+/******/ 					var fnQueue = (q) => (q !== queue && !depQueues.has(q) && (depQueues.add(q), q && !q.d && (fn.r++, q.push(fn))));
+/******/ 					currentDeps.map((dep) => (dep[webpackQueues](fnQueue)));
+/******/ 				});
+/******/ 				return fn.r ? promise : getResult();
+/******/ 			}, (err) => ((err ? reject(promise[webpackError] = err) : outerResolve(exports)), resolveQueue(queue)));
+/******/ 			queue && (queue.d = 0);
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
 /******/ 		// getDefaultExport function for compatibility with non-harmony modules
@@ -196,7 +277,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ind
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval devtool is used.
+/******/ 	// This entry module is referenced by other modules so it can't be inlined
 /******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
 /******/ 	
 /******/ })()
