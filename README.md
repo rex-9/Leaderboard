@@ -1,5 +1,4 @@
-# Project Name
-Leaderboard
+# Leaderboard
 
 ## Built With
 - HTML
@@ -21,7 +20,7 @@ To get a local copy up and running:
 
 2. Navigate to the location of the folder in your machine:
 
-**``you@your-Pc-name:~$ cd <folder>``**
+**``you@your-Pc-name:~$ cd <Leaderboard>``**
 
 3. Open the project with VScode:
 
@@ -44,10 +43,10 @@ To get a local copy up and running:
 Here is the online version of [Leaderboard](https://htetnaing0814.github.io/leaderboard/)
 
 ## Author
-👤 - Github: [@HtetNaing0814](https://github.com/HtetNaing0814/)
-👤 - LinkedIn: [Htet Naing](https://www.linkedin.com/in/htet-naing-b4882a1aa/)
-👤 - Facebook: [Htet Naing](https://www.facebook.com/rexsoul1819)
-👤 - Angelist: [Htet Naing](https://angel.co/u/htet-naing-2)
+👤 - Github: [@HtetNaing0814](https://github.com/HtetNaing0814/)<br>
+👤 - LinkedIn: [Htet Naing](https://www.linkedin.com/in/htet-naing-b4882a1aa/)<br>
+👤 - Facebook: [Htet Naing](https://www.facebook.com/rexsoul1819)<br>
+👤 - Angelist: [Htet Naing](https://angel.co/u/htet-naing-2)<br>
 
 ## 🤝 Contributions
 Contributions, issues, and feature requests are welcome!
@@ -61,4 +60,4 @@ Give a ⭐️ if you like this project!
 [Microverse](https://bit.ly/MicroverseTN)
 
 ## 📝 License
-This project is [MIT](https://github.com/HtetNaing0814/Leaderboard/blob/dev/MIT.md) licensed.
+This project is [MIT](./MIT.md) licensed.
