@@ -1,10 +1,19 @@
 /* eslint-disable import/no-cycle */
 
 import {
-  scores,
   score,
   left,
 } from '../index.js';
+
+let scores;
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/SSGbndo2H1p1mU5MNLum/scores';
+
+const apiCall = async () => {
+  const req = new Request(url);
+  const res = await fetch(req);
+  const json = await res.json();
+  scores = json.result;
+};
 
 const load = () => {
   if (scores !== null && scores.length !== 0) {
@@ -16,7 +25,7 @@ const load = () => {
     scores.forEach((score) => {
       const tr = document.createElement('tr');
       const td = document.createElement('td');
-      td.innerHTML = `${score.name}: ${score.score}`;
+      td.innerHTML = `${score.user}: ${score.score}`;
       const tbody = document.querySelector('tbody');
       tbody.appendChild(tr);
       tr.appendChild(td);
@@ -34,7 +43,7 @@ const load = () => {
   }
 };
 
-const add = () => {
+const add = async () => {
   const name = document.getElementById('name');
   if (name.value === '' || score.value === '') {
     const right = document.querySelector('.right');
@@ -43,22 +52,29 @@ const add = () => {
     error.style.cssText = 'color: red;';
     right.appendChild(error);
   } else {
-    const newScore = {
-      name: name.value,
-      score: score.value,
+    const data = {
+      method: 'POST',
+      body: JSON.stringify({
+        user: name.value,
+        score: score.value,
+      }),
+      headers: {
+        'Content-type': 'application/json; charset=UTF-8',
+      },
     };
-    scores.push(newScore);
-    localStorage.setItem('scores', JSON.stringify(scores));
+
+    const req = new Request(url);
+    await fetch(req, data);
     window.location.reload();
   }
 };
 
 const clear = () => {
-  window.localStorage.clear();
   window.location.reload();
 };
 
 export {
+  apiCall,
   load,
   add,
   clear,

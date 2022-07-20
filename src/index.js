@@ -3,16 +3,13 @@
 
 import './index.css';
 import {
+  apiCall,
   load,
   add,
   clear,
 } from './modules/functions.js';
 
-let scores = [];
-
-if (JSON.parse(localStorage.getItem('scores'))) {
-  scores = JSON.parse(localStorage.getItem('scores'));
-}
+await apiCall();
 
 const left = document.querySelector('.left');
 const score = document.getElementById('score');
@@ -40,7 +37,6 @@ refresh.addEventListener('click', (e) => {
 });
 
 export {
-  scores,
   score,
   left,
 };
