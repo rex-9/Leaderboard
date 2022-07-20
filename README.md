@@ -1,6 +1,7 @@
-# Project Name
-Leaderboard
-
+# Leaderboard
+> Leaderboard provides two functions:
+> 1. displays the list of the users and their scores fetching from the API and
+> 2. adds the new user and the score to the API.
 ## Built With
 - HTML
 - CSS
@@ -9,7 +10,7 @@ Leaderboard
 
 ## Live Demo
 
-[Leaderboard](https://htetnaing0814.github.io/leaderboard/)
+[Leaderboard](https://htetnaing0814.github.io/Leaderboard/)
 
 ## Getting Started
 
@@ -21,19 +22,33 @@ To get a local copy up and running:
 
 2. Navigate to the location of the folder in your machine:
 
-**``you@your-Pc-name:~$ cd <folder>``**
+**``you@your-Pc-name:~$ cd Leaderboard``**
 
-To get a local copy up and running follow these simple example steps.
+3. Open the project with VScode:
+
+**``code .``**
+
+3. Install the node packages:
+
+**``npm install``**
+
+4. Build the node packages:
+
+**``npm run build``**
+
+5. Run the webpack dev server:
+
+**``npm run start``**
 
 ### Deployment
 
 Here is the online version of [Leaderboard](https://htetnaing0814.github.io/leaderboard/)
 
 ## Author
-👤 - Github: [@HtetNaing0814](https://github.com/HtetNaing0814/)
-👤 - LinkedIn: [Htet Naing](https://www.linkedin.com/in/htet-naing-b4882a1aa/)
-👤 - Facebook: [Htet Naing](https://www.facebook.com/rexsoul1819)
-👤 - Angelist: [Htet Naing](https://angel.co/u/htet-naing-2)
+👤 - Github: [@HtetNaing0814](https://github.com/HtetNaing0814/)<br>
+👤 - LinkedIn: [Htet Naing](https://www.linkedin.com/in/htet-naing-b4882a1aa/)<br>
+👤 - Facebook: [Htet Naing](https://www.facebook.com/rexsoul1819)<br>
+👤 - Angelist: [Htet Naing](https://angel.co/u/htet-naing-2)<br>
 
 ## 🤝 Contributions
 Contributions, issues, and feature requests are welcome!
@@ -45,3 +60,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 [Microverse](https://bit.ly/MicroverseTN)
+
+## 📝 License
+This project is [MIT](./MIT.md) licensed.

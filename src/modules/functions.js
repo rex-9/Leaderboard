@@ -25,6 +25,7 @@ const load = () => {
     scores.forEach((score) => {
       const tr = document.createElement('tr');
       const td = document.createElement('td');
+      td.style.cssText = 'padding: 5px 0 5px 10px;';
       td.innerHTML = `${score.user}: ${score.score}`;
       const tbody = document.querySelector('tbody');
       tbody.appendChild(tr);

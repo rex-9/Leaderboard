@@ -7,46 +7,34 @@ body {
 button {
   margin: 8px 0 0 15px;
   padding: 3px 8px 3px 8px;
-  border: 4px solid black;
-  font-family: 'Patrick Hand', cursive;
+  background-color: lightgreen;
+  border-radius: 5px;
+  font-family: 'Quicksand', cursive;
   font-weight: 600;
   font-size: 15px;
   cursor: pointer;
 }
 
-table {
-  padding: 3px;
-  width: 350px;
-  border: 4px solid black;
+button:hover {
+  transform: scale(1.1);
+  background-color: green;
+  color: white;
+}
+
+::placeholder {
+  font-family: 'Quicksand', cursive;
+  font-weight: bold;
 }
 
 input {
-  margin: 8px 0 0 15px;
+  margin-top: 8px;
   padding: 3px 8px 3px 8px;
-  border: 4px solid black;
+  border-radius: 5px;
+  border: 0;
+  background-color: lightgray;
   font-family: 'Patrick Hand', cursive;
   font-weight: 600;
   font-size: 15px;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.layout {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding-bottom: 25px;
-}
-
-.heading {
-  width: 350px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .left {
@@ -56,5 +44,90 @@ input {
 .right {
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: flex-end;
+  background-color: white;
+  padding: 0 20px 20px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  transition: box-shadow 1s;
+}
+
+.right:hover {
+  box-shadow: 3px 3px 10px green;
+}
+
+@media only screen and (min-width: 720px) {
+  table {
+    font-family: 'Quicksand', cursive;
+    font-weight: bold;
+    background-color: white;
+    padding: 3px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: box-shadow 1s;
+  }
+
+  table:hover {
+    box-shadow: 10px 10px 10px;
+  }
+
+  .container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .layout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 25px;
+  }
+
+  .heading {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  table {
+    font-family: 'Quicksand', cursive;
+    font-weight: bold;
+    background-color: white;
+    padding: 3px;
+    margin-bottom: 25px;
+    width: 277px;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: box-shadow 1s;
+  }
+
+  table:hover {
+    box-shadow: 10px 10px 10px;
+  }
+
+  .container-div {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .layout {
+    /* background-color: red; */
+    width: 277px;
+  }
+
+  .heading {
+    width: 277px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
