@@ -9,7 +9,7 @@ Leaderboard
 
 ## Live Demo
 
-[Leaderboard](https://htetnaing0814.github.io/leaderboard/)
+[Leaderboard](https://htetnaing0814.github.io/Leaderboard/)
 
 ## Getting Started
 
@@ -23,7 +23,21 @@ To get a local copy up and running:
 
 **``you@your-Pc-name:~$ cd <folder>``**
 
-To get a local copy up and running follow these simple example steps.
+3. Open the project with VScode:
+
+**``code .``**
+
+3. Install the node packages:
+
+**``npm install``**
+
+4. Build the node packages:
+
+**``npm run build``**
+
+5. Run the webpack dev server:
+
+**``npm run start``**
 
 ### Deployment
 
@@ -45,3 +59,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 [Microverse](https://bit.ly/MicroverseTN)
+
+## 📝 License
+This project is [MIT](https://github.com/HtetNaing0814/Leaderboard/blob/dev/MIT.md) licensed.
