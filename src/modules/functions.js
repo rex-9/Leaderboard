@@ -6,7 +6,7 @@ import {
 } from '../index.js';
 
 let scores;
-const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/SSGbndo2H1p1mU5MNLum/scores';
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/pFyfLv1Wui5j4i6a6b5f/scores';
 
 const apiCall = async () => {
   const req = new Request(url);
@@ -39,6 +39,7 @@ const load = () => {
     }
   } else {
     const noScore = document.createElement('p');
+    noScore.style.cssText = 'color: gray; margin-bottom: 25px; padding-bottom: 25px; border-bottom: 2px dashed gray;';
     noScore.innerHTML = 'There is no score yet.';
     left.appendChild(noScore);
   }
@@ -47,11 +48,16 @@ const load = () => {
 const add = async () => {
   const name = document.getElementById('name');
   if (name.value === '' || score.value === '') {
-    const right = document.querySelector('.right');
+    const containerDiv = document.querySelector('.container-div');
     const error = document.createElement('p');
-    error.innerHTML = 'The forms should not be empty!';
-    error.style.cssText = 'color: red;';
-    right.appendChild(error);
+    error.id = 'error';
+    error.innerHTML = 'The input fields of the form should not be empty!';
+    error.style.cssText = 'color: red; text-align: center;';
+    const errorCheck = document.getElementById('error');
+    if (!containerDiv.contains(errorCheck)) {
+      console.log('has error');
+      containerDiv.appendChild(error);
+    }
   } else {
     const data = {
       method: 'POST',
