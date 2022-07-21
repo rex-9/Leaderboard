@@ -1,7 +1,7 @@
 /* eslint-disable import/no-cycle */
 /* eslint-disable import/no-mutable-exports */
 
-import './index.css';
+import './style.css';
 import {
   apiCall,
   load,
