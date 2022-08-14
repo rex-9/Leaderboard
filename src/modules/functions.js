@@ -6,14 +6,13 @@ import {
 } from '../index.js';
 
 let scores;
-const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/pFyfLv1Wui5j4i6a6b5f/scores';
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/CdA4w2WAqVnyQ7iO5YIp/scores';
 
 const apiCall = async () => {
   const req = new Request(url);
   const res = await fetch(req);
   const json = await res.json();
   scores = json.result;
-  console.log(scores);
 };
 
 const load = () => {
@@ -35,7 +34,9 @@ const load = () => {
     });
     for (let i = 0; i < trs.length; i += 1) {
       if (i % 2 !== 0) {
-        trs[i].style.cssText = 'background-color: gainsboro;';
+        trs[i].style.cssText = 'background-color: #002a1e; color: #09f9ae;';
+      } else {
+        trs[i].style.cssText = 'background-color: #09f9ae; color: #002a1e;';
       }
     }
   } else {
@@ -56,7 +57,6 @@ const add = async () => {
     error.style.cssText = 'color: red; text-align: center;';
     const errorCheck = document.getElementById('error');
     if (!containerDiv.contains(errorCheck)) {
-      console.log('has error');
       containerDiv.appendChild(error);
     }
   } else {

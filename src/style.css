@@ -46,8 +46,8 @@ input {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  background-color: #002a1e;
-  color: #09f9ae;
+  background-color: white;
+  color: #002a1e;
   padding: 0 20px 20px 20px;
   border: 2px solid #09f9ae;
   border-radius: 5px;
@@ -55,7 +55,12 @@ input {
 }
 
 .form:hover {
-  box-shadow: 30px 30px 5px white;
+  box-shadow: 20px 20px 5px #002a1e;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 @media only screen and (min-width: 720px) {
@@ -63,7 +68,6 @@ input {
     font-family: 'Quicksand', cursive;
     font-weight: bold;
     background-color: white;
-    padding: 3px;
     width: 350px;
     border: 2px solid black;
     border-radius: 5px;
@@ -71,7 +75,7 @@ input {
   }
 
   table:hover {
-    box-shadow: 10px 10px 10px;
+    box-shadow: 20px 20px 5px #002a1e;
   }
 
   .container {
@@ -102,7 +106,6 @@ input {
     font-family: 'Quicksand', cursive;
     font-weight: bold;
     background-color: white;
-    padding: 3px;
     margin-bottom: 25px;
     width: 277px;
     border: 2px solid black;
@@ -111,7 +114,7 @@ input {
   }
 
   table:hover {
-    box-shadow: 10px 10px 10px;
+    box-shadow: 20px 20px 5px #002a1e;
   }
 
   .container-div {
