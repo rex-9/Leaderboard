@@ -13,6 +13,7 @@ const apiCall = async () => {
   const res = await fetch(req);
   const json = await res.json();
   scores = json.result;
+  console.log(scores);
 };
 
 const load = () => {
@@ -40,7 +41,7 @@ const load = () => {
   } else {
     const noScore = document.createElement('p');
     noScore.style.cssText = 'color: gray; margin-bottom: 25px; padding-bottom: 25px; border-bottom: 2px dashed gray;';
-    noScore.innerHTML = 'There is no score yet.';
+    noScore.innerHTML = 'There is no score yet. <br>Time to add your score. 😎';
     left.appendChild(noScore);
   }
 };

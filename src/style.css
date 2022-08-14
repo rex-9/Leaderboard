@@ -1,5 +1,5 @@
 body {
-  background-color: azure;
+  background-color: #95faca;
   font-family: 'Patrick Hand', cursive;
   font-size: 18px;
 }
@@ -38,22 +38,24 @@ input {
 }
 
 .left {
+  color: #002a1e;
   margin-right: 50px;
 }
 
-.right {
+.form {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  background-color: white;
+  background-color: #002a1e;
+  color: #09f9ae;
   padding: 0 20px 20px 20px;
-  border: 2px solid black;
+  border: 2px solid #09f9ae;
   border-radius: 5px;
   transition: box-shadow 1s;
 }
 
-.right:hover {
-  box-shadow: 3px 3px 10px green;
+.form:hover {
+  box-shadow: 30px 30px 5px white;
 }
 
 @media only screen and (min-width: 720px) {
