@@ -13,10 +13,6 @@
 - ** Home Page **
 ![Leaderboard](./Leaderboard.png)
 
-## Live Demo
-
-[Leaderboard](https://rex-9.github.io/Leaderboard/)
-
 ## Getting Started
 
 To get a local copy up and running:
@@ -47,7 +43,7 @@ To get a local copy up and running:
 
 ### Deployment
 
-Here is the online version of [Leaderboard](https://rex-9.github.io/leaderboard/)
+Here is the online version of [Leaderboard](https://rex-9.github.io/Leaderboard/)
 
 ## Author
 👤 - Github: [rex-9](https://github.com/rex-9/)<br>
